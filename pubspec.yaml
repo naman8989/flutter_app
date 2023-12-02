@@ -1,0 +1,42 @@
+name: food_order_ui
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  lottie: ^1.1.0
+  curved_navigation_bar: ^1.0.1
+  carousel_slider: ^4.0.0
+  mongo_dart: ^0.9.1
+  requests: ^4.7.0
+  http: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  build_runner: ^2.3.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/category/
+    - assets/discount/
+    - assets/food/
+    - assets/main/
+    - assets/menu/
+    - assets/menu/menuImage/
+
+
